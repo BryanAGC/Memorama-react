@@ -1,0 +1,38 @@
+
+  .board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Genera 4 columnas de igual tamaño */
+    gap: 15px; /* Espaciado entre cartas */
+    justify-content: center; /* Centra el tablero horizontalmente */
+    padding: 20px; /* Espaciado interno del tablero */
+  }
+  
+  
+  .scoreboard {
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: "Poppins", sans-serif; /* Usa una fuente moderna */
+  }
+  
+  .scoreboard h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .scoreboard h3 {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #444;
+  }
+  
